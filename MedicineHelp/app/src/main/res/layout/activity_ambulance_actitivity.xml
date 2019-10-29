@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AmbulanceActitivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+       <!-- app:srcCompat="@drawable/ambulance" -->
+
+    <ListView
+        android:id="@+id/ambulanceListId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/common_google_signin_btn_text_dark_focused"
+        android:dividerHeight="2dp">
+
+    </ListView>
+
+
+</LinearLayout>

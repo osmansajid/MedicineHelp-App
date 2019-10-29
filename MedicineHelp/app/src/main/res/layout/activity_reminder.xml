@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReminderActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:weightSum="5"
+    >
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+<android.support.design.widget.TextInputLayout
+    android:id="@+id/medicine_layout"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    app:errorEnabled="true">
+        <EditText
+            android:id="@+id/medNameRemId"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:hint="Medicine name"
+            />
+
+
+</android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+<android.support.design.widget.TextInputLayout
+    android:id="@+id/inputfullname"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    app:errorEnabled="true">
+        <EditText
+            android:id="@+id/etdocname"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:hint="Doctor name"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/durationlayout"
+    app:errorEnabled="true">
+        <EditText
+            android:id="@+id/ethowmanydays"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="How any Days"
+            />
+</android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
+        android:layout_weight="2"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/datePickerId"
+            android:layout_width="160dp"
+            android:layout_height="165dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            app:cardBackgroundColor="#F6D9D0"
+            app:cardCornerRadius="12dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/cerclebackgroundpurple"
+                    android:padding="10dp"
+                    android:src="@drawable/calendar"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Pick Start Date"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Click here\nto select date"
+                    android:textColor="#505450" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="165dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:id="@+id/timePicker1Id"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#D0C9B2"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/cerclebackgroundyello"
+                    android:padding="10dp"
+                    android:src="@drawable/sunrise"
+                     />
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Pick Morning Time"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Click here to pick\nmorning time"
+                    android:textColor="#505450" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="165dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:id="@+id/timePicker2Id"
+            app:cardBackgroundColor="#F8FFC0"
+            app:cardCornerRadius="12dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/cerclebackgroundgreen"
+                    android:padding="10dp"
+                    android:src="@drawable/postmeridiem"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Pick Afternoon Time"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Click here to pick\nafternoon time"
+                    android:textColor="#505450" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="165dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:id="@+id/timePicker3Id"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#BBE5BB"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/cerclebackgroundpink"
+                    android:padding="10dp"
+                    android:src="@drawable/tent"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Pick Night Time"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Click here to pick\nnight time"
+                    android:textColor="#505450" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/buttsave"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_round"
+            android:text="Save"
+            android:onClick="confirmInput"
+           />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>
