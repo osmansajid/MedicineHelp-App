@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Medicine_HelpV2</string>
+
+    <string-array name="name">
+        <item>Demo</item>
+        <item>Apollo Hospitals Dhaka-1</item>
+        <item>Apollo Hospitals Dhaka-2</item>
+        <item>Ibrahim Cardiac Hospital</item>
+        <item>Medinova Medical Services</item>
+        <item>Metro Ambulance Services</item>
+        <item>Monowara Hospital (Pvt.) Ltd</item>
+        <item>Somorita Ambulance</item>
+        <item>Lab-aid Cardiac Hospital</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>01912404863</item>
+        <item>01714090000</item>
+        <item>01713063067</item>
+        <item>01713003004</item>
+        <item>01711533333</item>
+        <item>01714088974</item>
+        <item>01715653887</item>
+        <item>01711600925</item>
+        <item>01715120229</item>
+    </string-array>
+</resources>

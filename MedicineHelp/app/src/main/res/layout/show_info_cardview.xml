@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ShowInfo">
+
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#48D1CC"
+            android:layout_marginBottom="10dp"
+            android:text="Medicine Information"/>
+
+       <android.support.v7.widget.CardView
+           android:id="@+id/brandID"
+           app:cardBackgroundColor="#008080"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+
+               <TextView
+                   android:layout_marginLeft="5dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Brand Name :"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#48D1CC"
+                   />
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_margin="10dp"
+                   />
+
+               <TextView
+                   android:layout_marginLeft="5dp"
+                   android:id="@+id/brand"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Brand Name :"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#AFEEEE"
+                   />
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/genNameId"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#008080"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Generic Name :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#48D1CC"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/generic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Generic Name :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#AFEEEE"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#008080"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Indications :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#48D1CC"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/indication"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Indications :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#AFEEEE"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/indicId"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#008080"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Doses :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#48D1CC"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/dose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Doses :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#AFEEEE"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#008080"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Side Effects :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#48D1CC"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/sideEffects"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Side Effects :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#AFEEEE"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
