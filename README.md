@@ -23,7 +23,7 @@ https://github.com/raz1997
 
 ![medicine_help_search_suggestion](https://github.com/osmansajid/MedicineHelp-App/assets/42430976/fdff3c9a-975a-4bbc-9354-31d516862dea)
 
-![image](https://github.com/osmansajid/MedicineHelp-App/assets/42430976/4e1295a5-2d6f-4126-8306-7d3b049494e9)
+![medicine_help_scan_medicine_name](https://github.com/osmansajid/MedicineHelp-App/assets/42430976/1006dddd-2f5f-4fd5-851d-c306908e8af1)
 
 **Search result**
 
