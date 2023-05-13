@@ -52,6 +52,7 @@ https://github.com/raz1997
 **Scan prescription**
 
 ![medicine_help_prescription_format_tutorial](https://github.com/osmansajid/MedicineHelp-App/assets/42430976/e4d00721-00b5-4a23-a5fc-a1cf97545e59)
+
 ![medicine_help_scan_prescription](https://github.com/osmansajid/MedicineHelp-App/assets/42430976/89153446-96ef-499e-b924-bbe5bcfff536)
 
 **Emergency contacts page**
